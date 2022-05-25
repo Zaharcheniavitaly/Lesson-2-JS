@@ -75,7 +75,7 @@ if (e < 0 && k < 0) {
 	let multiplication = (e * k);
 	alert("Произведение чисел равно: " + multiplication);
 }
-if (e < 0 && k > 0 || e > 0 && k <>> 0) {
+if (e < 0 && k > 0 || e > 0 && k < 0) {
 	let sum = (e + k);
 	alert("Сумма чисел равна: " + sum);
 }
