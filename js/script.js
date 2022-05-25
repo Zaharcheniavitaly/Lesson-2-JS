@@ -71,11 +71,11 @@ if (e >= 0 && k >= 0) {
 	let difference = (e - k);
 	alert("Разность чисел равна: " + difference);
 }
-if (e < 0 && k < 0) {
+else if (e < 0 && k < 0) {
 	let multiplication = (e * k);
 	alert("Произведение чисел равно: " + multiplication);
 }
-if (e < 0 && k > 0 || e > 0 && k < 0) {
+else if (e < 0 && k > 0 || e > 0 && k < 0) {
 	let sum = (e + k);
 	alert("Сумма чисел равна: " + sum);
 }
