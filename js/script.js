@@ -67,15 +67,16 @@ let x = 5*/
 
 let e = Number(parseInt(prompt("Введите первое целое число")));
 let k = Number(parseInt(prompt("Введите второе целое число")));
+
 if (e >= 0 && k >= 0) {
 	let difference = (e - k);
 	alert("Разность чисел равна: " + difference);
-}
-else if (e < 0 && k < 0) {
+
+} else if (e < 0 && k < 0) {
 	let multiplication = (e * k);
 	alert("Произведение чисел равно: " + multiplication);
-}
-else if (e < 0 && k > 0 || e > 0 && k < 0) {
+
+} else if (e < 0 && k > 0 || e > 0 && k < 0) {
 	let sum = (e + k);
 	alert("Сумма чисел равна: " + sum);
 }
