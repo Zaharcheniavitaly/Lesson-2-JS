@@ -57,5 +57,41 @@ alert(b); //3
 let y = 2;
 let x = 1 + (y *= 2);
 
-/* y *= 2 можно записать как y == y * 2, т.е. 2 * 2  равно 4.    1 + 4 = 5. 
-let x = 5
+/*     y *= 2 можно записать как y = y * 2, т.е. 2 * 2  равно 4.
+1 + 4 = 5.
+let x = 5*/
+
+
+
+//Задание 3
+
+let e = Number(parseInt(prompt("Введите первое целое число")));
+let k = Number(parseInt(prompt("Введите второе целое число")));
+if (e >= 0 && k >= 0) {
+	let difference = (e - k);
+	alert("Разность чисел равна: " + difference);
+}
+if (e < 0 && k < 0) {
+	let multiplication = (e * k);
+	alert("Произведение чисел равно: " + multiplication);
+}
+if (e < 0 && k > 0 || e > 0 && k <>> 0) {
+	let sum = (e + k);
+	alert("Сумма чисел равна: " + sum);
+}
+
+
+
+
+
+
+//Задание 4
+
+function arithmeticOperations() {
+
+
+
+}
+
+arithmeticOperations();
+
