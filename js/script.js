@@ -1,7 +1,3 @@
-
-
-
-
 "use strict";
 
 /**
@@ -57,9 +53,9 @@ alert(b); //3
 let y = 2;
 let x = 1 + (y *= 2);
 
-/*     y *= 2 можно записать как y = y * 2, т.е. 2 * 2  равно 4.
-1 + 4 = 5.
-let x = 5*/
+/*     y *= 2 можно записать как y == y * 2, т.е. 2 * 2  равно 4.
+1 + 4 == 5.
+let x == 5*/
 
 
 
@@ -86,13 +82,62 @@ if (e >= 0 && k >= 0) {
 
 
 
-//Задание 4
+// Задание 4
+/**
+ * функция складывает два числа
+ * @param {number} num1 
+ * @param {number} num2 
+ * @returns {number}
+ */
 
-function arithmeticOperations() {
-
-
-
+function calcAdd(num1 = 1, num2 = 5) {
+	return num1 + num2;
 }
 
-arithmeticOperations();
+let sum = calcAdd();
+alert(sum);
+
+
+
+/**
+ * функция вычитания
+ * @param {*} num1 
+ * @param {*} num2 
+ * @returns 
+ */
+function calcSubtract(num1 = 1, num2 = 5) {
+	return num1 - num2;
+}
+
+let difference = calcSubtract();
+alert(difference);
+
+
+
+/**
+ * функция умножения
+ * @param {*} num1 
+ * @param {*} num2 
+ * @returns 
+ */
+function calcMultiply(num1, num2) {
+	return num1 * num2;
+}
+
+let multiplication = calcMultiply(5, 6);
+alert(multiplication);
+
+
+/**
+ * функция деления
+ * @param {*} num1 
+ * @param {*} num2 
+ * @returns 
+ */
+function calcDivide(num1, num2) {
+	return num1 / num2;
+}
+
+let division = calcDivide(7, 6);
+alert(division);
 
